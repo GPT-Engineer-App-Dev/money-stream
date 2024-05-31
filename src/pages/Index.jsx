@@ -1,6 +1,6 @@
 import { Box, Container, Flex, Heading, Text, VStack, HStack, Link } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/react";
-import { FaHome, FaMoneyCheckAlt, FaExchangeAlt, FaLifeRing } from "react-icons/fa";
+import { FaHome, FaMoneyCheckAlt, FaExchangeAlt, FaLifeRing, FaHistory } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -61,6 +61,16 @@ const Index = () => {
           >
             <Icon as={FaLifeRing} />
             <Text>Support</Text>
+          </HStack>
+          <HStack
+            as="a"
+            href="/transaction-history"
+            spacing={3}
+            color="white"
+            _hover={{ color: "gray.300" }}
+          >
+            <Icon as={FaHistory} />
+            <Text>Transaction History</Text>
           </HStack>
         </HStack>
       </Flex>
