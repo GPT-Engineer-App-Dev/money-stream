@@ -44,13 +44,13 @@ const Index = () => {
           </HStack>
           <HStack
             as="a"
-            href="#"
+            href="/fund-transfer"
             spacing={3}
             color="white"
             _hover={{ color: "gray.300" }}
           >
             <Icon as={FaExchangeAlt} />
-            <Text>Transfers</Text>
+            <Text>Fund Transfer</Text>
           </HStack>
           <HStack
             as="a"
